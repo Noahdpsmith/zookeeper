@@ -1,5 +1,7 @@
 const express = require('express');
 const { animals } = require('./data/animals');
+var distDir = __dirname + "/dist/";
+ app.use(express.static(distDir));
 const PORT = process.env.PORT || 3001;
 const app = express();
 function filterByQuery(query, animalsArray) {
