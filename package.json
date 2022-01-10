@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Noahdpsmith/zookeeper#readme",
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
